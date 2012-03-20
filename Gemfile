@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails',        '3.2.2'
 gem 'jquery-rails', '2.0.0'
+gem 'haml'
+gem 'sass'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.5'
@@ -9,6 +11,7 @@ group :development, :test do
 end
 
 group :assets do
+  gem 'haml-rails'
   gem 'sass-rails',   '3.2.4'
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier',     '1.2.3'
