@@ -4,12 +4,6 @@
 en:
   hello: "Hello world"
   activerecord:
-<<<<<<< HEAD
     attributes:
       user:
         password_digest: "Password"
-=======
-     attributes:
-       user:
-         password_digest: "Password"
->>>>>>> sign-in-out
